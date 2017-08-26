@@ -25,11 +25,11 @@ public class Solution {
 		}	
 		
 		for (Entry<String, Integer> entry : map.entrySet());
-		    if (entry.getValue()==max) 
+		    if (entry.getValue() == max) 
 			finalNames.add(entry.getKey());
 		}
 		Collections.sort(finalNames);
-		return finalNames.get(finalNames.size()-1);
+		return finalNames.get(finalNames.size() - 1);
 	}
        
 	
